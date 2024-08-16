@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Create a virtual environment named sqlagent
+# Create a virtual environment named postgresql-agent
 echo "Creating virtual environment..."
-python3 -m venv sqlagent
+python3 -m venv postgresql-agent
 
 # Activate the virtual environment
 echo "Activating virtual environment..."
-source sqlagent/bin/activate
+source postgresql-agent/bin/activate
 
 # Install libraries from requirements.txt 
 echo "Installing libraries from requirements.txt..."
